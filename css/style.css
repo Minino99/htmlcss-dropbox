@@ -1,145 +1,222 @@
 /* INIZIO RESET */
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	box-sizing: border-box;
 }
 
 :root {
-    --color-blue: #0061FF;
-    --color-skygrey: #B4D0E7;
-    --color-red: #D5001F;
-    --color-navy: #0D2481;
-    --color-ocra: #FFD830;
-    --color-pastelgreen: #A2D39B;
-    --color-lightgreen: #D1E9CD;
-    --color-bordeaux: #61082B;
-    --color-skyblue: #0093CE;
+	--color-blue: #0061FF;
+	--color-skygrey: #B4D0E7;
+	--color-red: #D5001F;
+	--color-navy: #0D2481;
+	--color-ocra: #FFD830;
+	--color-pastelgreen: #A2D39B;
+	--color-lightgreen: #D1E9CD;
+	--color-bordeaux: #61082B;
+	--color-skyblue: #0093CE;
 }
 
 p {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 h1 {
-    font-size: 5rem;
-    margin: 0;
-    margin-bottom: 3rem;
+	font-size: 5rem;
+	margin: 0;
+	margin-bottom: 3rem;
+}
+
+h2{
+	font-size: 3rem;
+}
+
+h3{
+	font-size: 1.5rem;
+}
+
+a{
+	text-decoration: none;
 }
 
 .lowpadding {
-    padding-bottom: 1.5rem;
+	padding-bottom: 1.5rem;
 }
 
 .midpadding {
-    padding-bottom: 2rem;
+	padding-bottom: 2rem;
 }
 
 .highpadding {
-    padding-bottom: 3rem;
+	padding-bottom: 3rem;
 }
 
 .lowmargin {
-    margin-bottom: 1.5rem;
+	margin-bottom: 1.5rem;
 }
 
 .midmargin {
-    margin-bottom: 2rem;
+	margin-bottom: 2rem;
 }
 
 .ultrapadding {
-    padding-bottom: 5.5rem;
+	padding-bottom: 5.5rem;
 }
 
 .highmargin {
-    margin-bottom: 3rem;
+	margin-bottom: 3rem;
+}
+
+.ultramargin {
+	margin-bottom: 5.5rem;
+}
+
+
+.mainbodypadding{
+	margin-top: 12rem;
+	margin-right: 5rem;
+	margin-left: 5rem;
 }
 
 
 .relative {
-    position: relative;
+	position: relative;
 }
 
 .absolute {
-    position: absolute;
+	position: absolute;
 }
 
 .sticky {
-    position: sticky;
-    top: 0px;
-    width: 100%;
-    background-color: white;
+	position: sticky;
+	top: 0px;
+	width: 100%;
+	background-color: white;
+	z-index: 1;
 }
 
 /* FINE RESET */
 
 .headernav {
-    padding: 0.5rem 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+	padding: 0.5rem 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .navelement {
-    display: flex;
-    align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 .navelement img {
-    padding-right: 1.5rem;
+	padding-right: 1.5rem;
 }
 
 
 .navelement ul {
-    list-style: none;
-    padding: 0 1rem;
+	list-style: none;
+	padding: 0 1rem;
 
 }
 
 .navelement ul li {
-    display: inline-block;
-    padding-right: 1.5rem;
-    text-decoration: none;
-    color: black;
+	display: inline-block;
+	padding-right: 1.5rem;
+	text-decoration: none;
+	color: black;
 }
 
 .navelement ul li.btn {
-    background-color: var(--color-blue);
-    color: white;
-    padding: 0.5rem 1rem;
+	background-color: var(--color-blue);
+	color: white;
+	padding: 0.5rem 1rem;
 }
 
 .btn {
-    background-color: var(--color-blue);
-    color: white;
-    padding: 0.5rem 1rem;
-    display: inline-block;
+	background-color: var(--color-blue);
+	color: white;
+	padding: 0.8rem 1rem;
+	display: inline-block;
 }
 
 .bgcontainer {
-    background-color: var(--color-skygrey);
+	background-color: var(--color-skygrey);
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
+	max-width: 1200px;
+	margin: 0 auto;
 }
 
 .headerflex {
-    display: flex;
-    justify-content: space-between;
-    align-items: top;
-    font-size: 1.2rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: top;
+	font-size: 1.2rem;
 }
 
+.mainflex{
+	display: flex;
+	gap: 2rem;
+}
 
 .jumboimg img {
-    max-width: 875px;
+	max-width: 875px;
 }
 
 .floatingheader {
-    bottom: -80px;
+	bottom: -80px;
+}
+
+.table{
+	width: 100%;
+}
+
+.tableborder{
+	border: 1px solid lightgray;
+}
+
+.table-title{
+	text-align: center;
+	border-bottom: 1px solid lightgray;
+	padding: 0.5rem 0;
+}
+
+.tablecontainer{
+	padding: 0 2rem;
+}
+
+.tablehr{
+	background-color: lightgray;
+	max-width: 60px;
+	margin-left: 0;
+}
+
+.fa-check{
+	color: var(--color-blue);
+}
+
+.tableperiod{
+	color: lightgray;
+}
+
+.btn-flex{
+	display: flex;
+	justify-content: center;
+}
+
+.link-underlineblue{
+	text-decoration: underline;
+	color: var(--color-blue);
+	display: inline-block;
+}
+
+.partner-btn{
+	background-color: transparent;
+	color: black;
+	border: solid 1px black;
 }
