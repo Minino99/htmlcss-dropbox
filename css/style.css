@@ -243,7 +243,7 @@ a {
 	width: calc(100% / 2);
 	aspect-ratio: 1;
 	box-sizing: border-box;
-	display: inline-block;
+	display: flex;
 }
 
 .brandbox-row {
@@ -253,7 +253,7 @@ a {
 
 .brandbox img {
 	display: block;
-	max-width: 150px;
+	width: 150px;
 	margin: auto;
 }
 
@@ -284,4 +284,12 @@ a {
 
 .skygrey{
 	background-color: var(--color-skygrey);
+}
+
+.footerlogo img{
+	max-width: 300px;
+}
+
+.paddingcontainer{
+	padding: 3rem;
 }
