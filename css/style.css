@@ -30,15 +30,15 @@ h1 {
 	margin-bottom: 3rem;
 }
 
-h2{
+h2 {
 	font-size: 3rem;
 }
 
-h3{
+h3 {
 	font-size: 1.5rem;
 }
 
-a{
+a {
 	text-decoration: none;
 }
 
@@ -75,7 +75,7 @@ a{
 }
 
 
-.mainbodypadding{
+.mainbodypadding {
 	margin-top: 12rem;
 	margin-right: 5rem;
 	margin-left: 5rem;
@@ -159,9 +159,27 @@ a{
 	font-size: 1.2rem;
 }
 
-.mainflex{
+.mainflex {
 	display: flex;
 	gap: 2rem;
+}
+
+.footerflex{
+	display: flex;
+	gap: 0;
+	width: 100%;
+}
+
+.footerboxes {
+	width: calc(100% / 3);
+	display: flex;
+	flex-direction: column;
+	gap: 0;
+}
+
+.footerbigbox{
+		width: calc(100% / 3);
+	display: flex;
 }
 
 .jumboimg img {
@@ -172,51 +190,98 @@ a{
 	bottom: -80px;
 }
 
-.table{
+.table {
 	width: 100%;
 }
 
-.tableborder{
+.tableborder {
 	border: 1px solid lightgray;
 }
 
-.table-title{
+.table-title {
 	text-align: center;
 	border-bottom: 1px solid lightgray;
 	padding: 0.5rem 0;
 }
 
-.tablecontainer{
+.tablecontainer {
 	padding: 0 2rem;
 }
 
-.tablehr{
+.tablehr {
 	background-color: lightgray;
 	max-width: 60px;
 	margin-left: 0;
 }
 
-.fa-check{
+.fa-check {
 	color: var(--color-blue);
 }
 
-.tableperiod{
+.tableperiod {
 	color: lightgray;
 }
 
-.btn-flex{
+.btn-flex {
 	display: flex;
 	justify-content: center;
 }
 
-.link-underlineblue{
+.link-underlineblue {
 	text-decoration: underline;
 	color: var(--color-blue);
 	display: inline-block;
 }
 
-.partner-btn{
+.partner-btn {
 	background-color: transparent;
 	color: black;
 	border: solid 1px black;
+}
+
+.brandbox {
+	width: calc(100% / 2);
+	aspect-ratio: 1;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+.brandbox-row {
+	display: flex;
+	background-color: rgb(236, 236, 236);
+}
+
+.brandbox img {
+	display: block;
+	max-width: 150px;
+	margin: auto;
+}
+
+.bordeaux {
+	background-color: var(--color-bordeaux);
+}
+
+.lightgreen {
+	background-color: var(--color-pastelgreen);
+	border: solid 14px var(--color-lightgreen);
+}
+
+.red {
+	background-color: var(--color-red);
+}
+
+.skyblue {
+	background-color: var(--color-skyblue);
+}
+
+.navy{
+	background-color: var(--color-navy);
+}
+
+.ocra{
+	background-color: var(--color-ocra);
+}
+
+.skygrey{
+	background-color: var(--color-skygrey);
 }
