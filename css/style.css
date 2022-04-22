@@ -4,6 +4,9 @@ body {
 	padding: 0;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 16px;
+}
+
+* {
 	box-sizing: border-box;
 }
 
@@ -81,6 +84,9 @@ a {
 	margin-left: 5rem;
 }
 
+.spacebetween{
+	justify-content: space-between;
+}
 
 .relative {
 	position: relative;
@@ -96,6 +102,10 @@ a {
 	width: 100%;
 	background-color: white;
 	z-index: 1;
+}
+
+.centeralign{
+	align-items: center;
 }
 
 /* FINE RESET */
@@ -212,6 +222,7 @@ a {
 	background-color: lightgray;
 	max-width: 60px;
 	margin-left: 0;
+	display: block;
 }
 
 .fa-check {
@@ -292,4 +303,45 @@ a {
 
 .paddingcontainer{
 	padding: 3rem;
+}
+
+.skybg{
+	background-color: var(--color-skygrey);
+}
+
+.skybg h2{
+	color: var(--color-bordeaux);
+	padding: 4rem 0;
+	display: inline-block;
+}
+
+.skybg a .btn{
+	background-color: white;
+	color: black;
+	white-space: nowrap;
+	display: inline-block;
+}
+
+.darkbg{
+	background-color: black;
+}
+
+.darkbg .container.mainflex{
+	color: white;
+	justify-content: space-between;
+	padding: 2.5rem 0;
+}
+
+.darkbg .container.mainflex ul{
+	list-style: none;
+	padding-inline-start: 0;
+}
+
+.darkbg .container.mainflex ul li{
+	padding-bottom: 1.1rem;
+}
+
+.footerlanguage{
+	padding: 2.5rem 0;
+	color: grey;
 }
