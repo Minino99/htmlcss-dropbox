@@ -114,6 +114,7 @@ a {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	height: 80px;
 }
 
 .navelement {
@@ -128,21 +129,17 @@ a {
 
 .navelement ul {
 	list-style: none;
-	padding: 0 1rem;
 
 }
 
 .navelement ul li {
 	display: inline-block;
-	padding-right: 1.5rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
 	text-decoration: none;
 	color: black;
-}
-
-.navelement ul li.btn {
-	background-color: var(--color-blue);
-	color: white;
-	padding: 0.5rem 1rem;
+	position: relative;
+	line-height: 82px;
 }
 
 .btn {
@@ -346,6 +343,48 @@ a {
 	color: grey;
 }
 
-li.btn:hover{
-	background-color: rgb(149, 149, 248);
+.btn:hover{
+	background-color: var(--color-lightblue);
+	transition: 0.1s;
 }
+
+.skybg a .btn:hover{
+	background-color: lightgray;
+	transition: 0.1s;
+}
+
+.partner-btn:hover{
+	background-color: lightgray;
+	transition: 0.1s;
+}
+
+.navelement ul li.btn {
+	background-color: var(--color-blue);
+	color: white;
+	padding: 0.5rem 1rem;
+}
+
+.navelement ul li.btn:hover{
+	background-color: var(--color-lightblue);
+	transition: 0.1s;
+	border: none;
+}
+
+.navelement ul li:hover {
+	border-bottom: 2px solid black;
+	transition: 0.1s;
+}
+
+.description{
+	display: none;
+}
+
+div.faq:hover + .description{
+	display: block;
+}
+
+
+
+
+
+
