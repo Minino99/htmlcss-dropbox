@@ -362,6 +362,7 @@ a {
 	background-color: var(--color-blue);
 	color: white;
 	padding: 0.5rem 1rem;
+	line-height: 20px;
 }
 
 .navelement ul li.btn:hover{
