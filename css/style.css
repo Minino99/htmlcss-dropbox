@@ -77,11 +77,9 @@ a {
 	margin-bottom: 5.5rem;
 }
 
-
 .mainbodypadding {
-	margin-top: 12rem;
-	margin-right: 5rem;
-	margin-left: 5rem;
+	padding-right: 5rem;
+	padding-left: 5rem;
 }
 
 .spacebetween{
@@ -97,7 +95,7 @@ a {
 }
 
 .sticky {
-	position: sticky;
+	position: fixed;
 	top: 0px;
 	width: 100%;
 	background-color: white;
@@ -151,6 +149,7 @@ a {
 	color: white;
 	padding: 0.8rem 1rem;
 	display: inline-block;
+	white-space: nowrap;
 }
 
 .bgcontainer {
